@@ -14,6 +14,9 @@ class AddViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //初期値に不正解を入れてるよ
+        self.answer = false
+        
     
         //textFieldに始めに表示しておく文字と色の指定
         textField.attributedPlaceholder = NSAttributedString(string: "ここに問題を入力してください。", attributes: [NSAttributedString.Key.foregroundColor : UIColor.gray])
@@ -67,8 +70,8 @@ class AddViewController: UIViewController {
             showAlert2(message: "問題を追加してください")
             
         //セグメントコントロールが選択されなかった時
-        }else if answer == nil {
-            showAlert2(message: "○×を選択してください\n×を選択する場合、⚪︎を一度選択してから×を選択してください。")
+//        }else if answer == nil {
+//            showAlert2(message: "○×を選択してください\n×を選択する場合、⚪︎を一度選択してから×を選択してください。")
             
         }else {
             var ques = textField.text!
@@ -81,6 +84,7 @@ class AddViewController: UIViewController {
             
             //ユーザーデフォルトにデータを保存
             UserDefaults.standard.set( data, forKey: "qAndA" )
+            //テスト
             print("保存したデータ\(data)")
         }
         
