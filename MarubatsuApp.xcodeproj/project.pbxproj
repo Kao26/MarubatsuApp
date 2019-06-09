@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323A3C5A22ACB9F1009052E0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A3C5922ACB9F1009052E0 /* AddViewController.swift */; };
+		323A3C6122AD515C009052E0 /* Q.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 323A3C5E22AD515C009052E0 /* Q.mp3 */; };
+		323A3C6222AD515C009052E0 /* N.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 323A3C5F22AD515C009052E0 /* N.mp3 */; };
+		323A3C6322AD515C009052E0 /* Y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 323A3C6022AD515C009052E0 /* Y.mp3 */; };
 		32B9F80C22AB4DBB007F2E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9F80B22AB4DBB007F2E44 /* AppDelegate.swift */; };
 		32B9F80E22AB4DBB007F2E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9F80D22AB4DBB007F2E44 /* ViewController.swift */; };
 		32B9F81122AB4DBB007F2E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B9F80F22AB4DBB007F2E44 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323A3C5922ACB9F1009052E0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		323A3C5E22AD515C009052E0 /* Q.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Q.mp3; sourceTree = "<group>"; };
+		323A3C5F22AD515C009052E0 /* N.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = N.mp3; sourceTree = "<group>"; };
+		323A3C6022AD515C009052E0 /* Y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Y.mp3; sourceTree = "<group>"; };
 		32B9F80822AB4DBB007F2E44 /* MarubatsuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatsuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B9F80B22AB4DBB007F2E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32B9F80D22AB4DBB007F2E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		323A3C5D22AD515C009052E0 /* 問題音 */ = {
+			isa = PBXGroup;
+			children = (
+				323A3C5E22AD515C009052E0 /* Q.mp3 */,
+				323A3C5F22AD515C009052E0 /* N.mp3 */,
+				323A3C6022AD515C009052E0 /* Y.mp3 */,
+			);
+			path = "問題音";
+			sourceTree = "<group>";
+		};
 		32B9F7FF22AB4DBB007F2E44 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +75,11 @@
 				32B9F80B22AB4DBB007F2E44 /* AppDelegate.swift */,
 				32B9F80D22AB4DBB007F2E44 /* ViewController.swift */,
 				32B9F80F22AB4DBB007F2E44 /* Main.storyboard */,
+				323A3C5922ACB9F1009052E0 /* AddViewController.swift */,
 				32B9F81222AB4DBD007F2E44 /* Assets.xcassets */,
 				32B9F81422AB4DBD007F2E44 /* LaunchScreen.storyboard */,
 				32B9F81722AB4DBD007F2E44 /* Info.plist */,
+				323A3C5D22AD515C009052E0 /* 問題音 */,
 			);
 			path = MarubatsuApp;
 			sourceTree = "<group>";
@@ -122,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323A3C6322AD515C009052E0 /* Y.mp3 in Resources */,
+				323A3C6122AD515C009052E0 /* Q.mp3 in Resources */,
+				323A3C6222AD515C009052E0 /* N.mp3 in Resources */,
 				32B9F81622AB4DBD007F2E44 /* LaunchScreen.storyboard in Resources */,
 				32B9F81322AB4DBD007F2E44 /* Assets.xcassets in Resources */,
 				32B9F81122AB4DBB007F2E44 /* Main.storyboard in Resources */,
@@ -137,6 +160,7 @@
 			files = (
 				32B9F80E22AB4DBB007F2E44 /* ViewController.swift in Sources */,
 				32B9F80C22AB4DBB007F2E44 /* AppDelegate.swift in Sources */,
+				323A3C5A22ACB9F1009052E0 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
